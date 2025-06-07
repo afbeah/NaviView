@@ -53,7 +53,7 @@ const VideoGrid = () => {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', padding: '2rem' }}>
             {videos.map((row, rowIndex) => (
-                <div key={rowIndex} style={{ display: 'flex', gap: '1rem' }}>
+                <div key={rowIndex} style={{ display: 'flex', justifyContent: 'center', gap: '1rem' }}>
                     {row.map((video, colIndex) => (
                         <div
                             key={videos.id}
